@@ -5,4 +5,5 @@ import anders.scoreboard.model.Scores;
 
 public interface ScoreboardService {
 	public List<Scores> getAllScores();
+	public Scores savePlayerScore(Scores scoreDetails);
 }

@@ -22,4 +22,9 @@ public class ScoreboardServiceImpl implements ScoreboardService{
 		return scoresRepository.findAllByOrderByScoreDesc();
 	}
 
+	@Override
+	public Scores savePlayerScore(Scores scoreDetails) {
+		return scoresRepository.save(scoreDetails);
+	}
+
 }
