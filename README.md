@@ -1,5 +1,5 @@
 # anders-code-challenge
-Code Challenge
+Code Challenge (Java, SpringBoot f/w, MySQL db)
 
 # Intitalization
 You need to change server url, username, password properties as per your MySQL server in the resources/application.properties. Then run the server to start the application. MySQL db name 'anders' will be created automatically.
